@@ -1,0 +1,144 @@
+/* 全局样式重置 */
+* {
+  box-sizing: border-box;
+}
+
+/* 根元素样式 */
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  background-color: #f0f2f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 基础元素样式 */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* 链接样式 */
+a {
+  color: #2196F3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1976D2;
+  text-decoration: underline;
+}
+
+/* 按钮基础样式 */
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+}
+
+button:focus {
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.3);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 输入框基础样式 */
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* 工具类 */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-1 { margin-top: 8px; }
+.mt-2 { margin-top: 16px; }
+.mt-3 { margin-top: 24px; }
+.mt-4 { margin-top: 32px; }
+
+.mb-1 { margin-bottom: 8px; }
+.mb-2 { margin-bottom: 16px; }
+.mb-3 { margin-bottom: 24px; }
+.mb-4 { margin-bottom: 32px; }
+
+.p-1 { padding: 8px; }
+.p-2 { padding: 16px; }
+.p-3 { padding: 24px; }
+.p-4 { padding: 32px; }
+
+/* 响应式断点 */
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 12px;
+  }
+}

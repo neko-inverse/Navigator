@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "开发工具",
+      "icon": "💻"
+    },
+    {
+      "id": "2",
+      "name": "学习资源",
+      "icon": "📚"
+    },
+    {
+      "id": "3",
+      "name": "社交媒体",
+      "icon": "📱"
+    },
+    {
+      "id": "1757403188152",
+      "name": "导航站",
+      "icon": ""
+    },
+    {
+      "id": "1757403197217",
+      "name": "Hero",
+      "icon": ""
+    }
+  ],
+  "websites": [
+    {
+      "id": "1",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "categoryId": "1",
+      "icon": "https://github.githubassets.com/favicons/favicon.ico"
+    },
+    {
+      "id": "2",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "categoryId": "1",
+      "icon": "https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico"
+    },
+    {
+      "id": "3",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "categoryId": "2",
+      "icon": "https://developer.mozilla.org/favicon.ico"
+    },
+    {
+      "id": "4",
+      "name": "掘金",
+      "url": "https://juejin.cn",
+      "categoryId": "2",
+      "icon": "https://lf-cdn-tos.bytescm.com/obj/static/xitu_extension/static/gold.5430b86.svg"
+    },
+    {
+      "id": "5",
+      "name": "Twitter",
+      "url": "https://twitter.com",
+      "categoryId": "3",
+      "icon": "https://abs.twimg.com/favicons/twitter.ico"
+    },
+    {
+      "id": "6",
+      "name": "知乎",
+      "url": "https://www.zhihu.com",
+      "categoryId": "3",
+      "icon": "https://static.zhihu.com/heifetz/favicon.ico"
+    },
+    {
+      "id": "1757064389018",
+      "name": "× 网站名称",
+      "url": "https://github.com/maomao1996/vitepress-nav-template",
+      "icon": "",
+      "categoryId": "2"
+    },
+    {
+      "id": "1757403193583",
+      "name": "波",
+      "url": "https://github.com/maomao1996/vitepress-nav-template",
+      "icon": "",
+      "categoryId": "1757403188152"
+    },
+    {
+      "id": "1757403202287",
+      "name": "baidu",
+      "url": "https://baidu.com",
+      "icon": "",
+      "categoryId": "1757403197217"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "navigator-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "concurrently \"vite\" \"cd backend && bun start.js\"",
+    "start:win": "start vite && start cd backend && bun start.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "vite": "^7.1.2",
+    "vue-router": "^4.5.1"
+  }
+}
